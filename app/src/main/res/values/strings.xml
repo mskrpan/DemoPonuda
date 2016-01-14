@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TestZadatak</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!--opisni text pojedinog mjesta s popisa-->
+    <string-array name="opis_ponude">
+        <item>U samom središtu Požege svoja vrata otvara vam "Villa Maria", mjesto vrhunskog domaćinstva u prekrasnom ambijentu podno Požeške gore. Nastavak je to stoljetne ugostiteljske tradicije u “Slavonskoj Ateni!”, gradu na dvije rijeke, smještenom u kotlini okruženoj sa gorskim vijencem od 5 planina koji je od pamtivijeka središte kulturnoga, političkog i vjerskog života zapadne Slavonije.</item>
+        <item>U samom srcu Zlatne doline, podno obronaka planine Papuk, 20-ak km udaljeno od Požege, a svega nekoliko od Kutjeva, nalazi se Vinska kuća Majetić. Gotovo cijele godine suncem okupano, okruženo netaknutom prirodom u zelenilu vinograda, pruža se predivan pogled na Vallis Aureu.</item>
+        <item>Da biste upoznali sva bogatstva kutjevačkog kraja, potrebno je više od jednog dana, što podrazumijeva da morate odmoriti i/ili prenoćiti. U sklopu naše vinarije nudimo vam i smještaj u vrhunski opremljenim sobama.</item>
+        <item>U srcu Zlatne doline koja je vjekovima očuvala tradiciju i dušu jedinstvenih slavonskih sela smještenih u beskrajnim ravnicama, podno vinograda i pogleda prema gustim slavonskim šumama, na seoskom domaćinstvu Zlatni Lug otvorena su vrata za nesvakidašnje gostoprimstvo koje će vam pružiti odmor od svakodnevice i užurbanog života.</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--custom kreirane boje za ActionBar-->
+    <color name="primaryColor">#C62828</color>
+    <color name="primaryColorDark">#B71C1C</color>
+    <color name="background_holo_light">#fff3f3f3</color>
+</resources>

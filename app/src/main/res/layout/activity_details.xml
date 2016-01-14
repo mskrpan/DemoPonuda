@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="10dp">
+
+    <ImageView
+        android:id="@+id/velikaSlika"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/marija" />
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="10dp">
+
+        <!--ratingBar je custom napravljen bar u cusrom_ratingbar.xml fajlu-->
+        <RatingBar
+            android:id="@+id/ratingBar"
+            style="@style/CustomRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingTop="5dp" />
+
+
+        <TextView
+            android:id="@+id/txtDetailsNaslov"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="NASLOV"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtDetailsUlica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ulica"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtDetailsPosta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:text="32100 Vinkovci"
+            android:textSize="16sp" />
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:scrollbars="vertical">
+
+            <TextView
+                android:id="@+id/txtOpis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kratki opis"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="16sp" />
+
+        </ScrollView>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/malaSlika1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/marija" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/malaSlika2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/majetic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/malaSlika3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/vinarija_sontacchi" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
